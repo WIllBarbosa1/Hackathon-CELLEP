@@ -1,0 +1,37 @@
+<%- include("../common/header.ejs")%>
+  <%- include("../common/menu.ejs")%>
+    <main class="md-4">
+      <div class="p-5 mb-4" style="background-color: #adb5bd;">
+        <div class="container text-center">
+          <h1>Seja bem vindo</h1>
+          <p class=" lead"> Fique por dentro das ultimas notícias da F.A.L.C. </p>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 5%;">
+        <div class="row row-cols-1 row-cols-sm2 row-cols-md-3 g-3">
+          <% post.forEach(post=> {%>
+            <div class="col">
+
+              <div class="card border-secondary mb-3" style="">
+                <img src="./img/gs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <%= post.titulo%>
+                  </h5>
+                  <p class="card-text">
+                    <%= post.conteudo.substring(0,50)%>
+                  </p>
+                  <p class="card-text"><small class="text-muted">
+                      <%= post.data_criacao.toLocaleString("pt-br").split(" ").join(" às ")%>
+              </small></p>
+              <a href=" /post?id=<%=post.id_postagem%>" class="btn btn-secondary">Continue lendo</a>
+                </div>
+              </div>
+            </div>
+            <%}) %>
+
+        </div>
+      </div>
+    </main>
+    <%- include("../common/footer.ejs")%>

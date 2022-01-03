@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 1382 400" version="1.1">
+  <defs id="defs4">
+    <filter id="filter3178" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3180" stdDeviation="3" result="result1"/>
+      <feBlend id="feBlend3182" result="result5" in="result1" in2="result1" mode="multiply"/>
+      <feGaussianBlur id="feGaussianBlur3184" in="result5" stdDeviation="1" result="result6"/>
+      <feComposite id="feComposite3186" operator="xor" result="result8" in2="result5" in="result6"/>
+      <feComposite id="feComposite3188" operator="xor" in="result6" in2="result8" result="fbSourceGraphic"/>
+      <feSpecularLighting id="feSpecularLighting3190" lighting-color="#ffffff" specularConstant="2.20000005" surfaceScale="2" result="result1" specularExponent="55" in="fbSourceGraphic">
+        <fePointLight id="fePointLight3192" y="-10000" x="-5000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite id="feComposite3194" operator="in" in="result1" in2="fbSourceGraphic" result="result2"/>
+      <feComposite id="feComposite3196" in="fbSourceGraphic" in2="result2" k3="1" k2="2" k1="0" result="result4" k4="0" operator="arithmetic"/>
+      <feComposite id="feComposite3198" operator="in" in2="result4" result="result91"/>
+      <feBlend id="feBlend3200" in2="result91" mode="darken"/>
+    </filter>
+    <filter id="filter3926" width="1.3" y="-.15" x="-.15" height="1.3" color-interpolation-filters="sRGB">
+      <feTurbulence id="feTurbulence3928" numOctaves="3" seed="5" type="fractalNoise" baseFrequency="0.25 0.4"/>
+      <feColorMatrix id="feColorMatrix3930" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " result="result5"/>
+      <feComposite id="feComposite3932" operator="in" in2="result5" in="SourceGraphic"/>
+      <feMorphology id="feMorphology3934" operator="dilate" radius="1.5" result="result3"/>
+      <feTurbulence id="feTurbulence3936" numOctaves="5" seed="7" type="fractalNoise" baseFrequency="0.03"/>
+      <feGaussianBlur id="feGaussianBlur3938" stdDeviation="0.5" result="result91"/>
+      <feDisplacementMap id="feDisplacementMap3940" scale="27" yChannelSelector="G" in2="result91" result="result4" xChannelSelector="R" in="result3"/>
+      <feComposite id="feComposite3942" in="result4" in2="result4" k3="0.8" k2="0" k1="1.3" result="result2" k4="0" operator="arithmetic"/>
+      <feBlend id="feBlend3944" mode="screen" in2="result2" in="result2"/>
+    </filter>
+  </defs>
+  <g id="layer1" transform="translate(0 -652.36)">
+    <g id="g4197" transform="matrix(1.4049 0 0 1.4049 168.3 557.84)">
+      <path id="text21071" filter="url(#filter3178)" fill="#008000" d="m122.54 145.72v41.51c14.273-1.1146 30.241 3.2831 42.876-5.0844 14.42-13.714 2.022-40.438-18.289-36.426h-24.587zm0-46.594v34.149c13.976-1.2236 30.52 3.8625 41.809-6.5736 12.054-17.986-9.3005-31.374-25.627-27.575h-16.182zm-15.33-12.596c19.31 0.78045 39.078-2.1174 57.927 2.8458 22.494 5.4849 24.626 43.914 0.88932 48.912 7.2231 1.3985 28.421 20.008 20.902 36.977-3.7761 21.473-28.29 25.878-46.636 24.563h-33.082v-113.3zm160.27 60.178c16.68 8.8948 21.13 29.104 30.172 44.451 6.4441 8.198 2.5669 10.031-6.4912 8.6692-8.1396 2.5305-8.3052-7.826-11.913-12.619-7.6973-13.03-11.486-32.896-29.16-35.033-6.0765 1.1901-18.456-3.1499-21.006 1.937v45.715c-4.9057-1.6503-17.143 4.0316-15.329-4.3388v-108.96c19.413 1.0046 39.752-2.9675 58.195 4.5675 21.367 10.156 20.326 50.149-4.4678 55.61zm-38.39-47.583v40.22c13.881-0.97924 33.043 4.3803 40.239-11.44 7.5641-17.314-9.4324-32.573-26.387-28.78h-13.852zm124.23 2.5043c-6.931 18.795-13.862 37.589-20.793 56.384h41.662c-6.9563-18.795-13.913-37.589-20.869-56.384zm-8.6511-15.101c5.5882 1.3463 14.898-2.7093 18.151 2.0272 14.136 37.09 28.271 74.181 42.407 111.27-5.6817-1.5247-16.156 3.7382-17.388-4.0887l-8.8687-24.976h-51.072c-3.4402 9.6882-6.8804 19.376-10.321 29.065-4.648-1.5054-19.028 3.6906-14.616-4.0534 13.903-36.415 27.805-72.83 41.708-109.25zm144.94 3.7184c1.2884 11.725 0.28495 18.778-12.536 9.8843-17.38-9.1289-54.886-1.1681-42.468 24.682 14.962 13.082 39.459 6.4317 53.638 21.741 16.262 16.599 7.6904 49.755-16.467 53.348-18.161 4.5361-37.346 1.3706-54.638-5.0844 0.20323-8.5409-2.8644-21.741 9.2392-11.193 15.449 6.4116 36.604 10.511 50.038-2.0584 13.038-16.78-6.2724-33.331-23.242-33.015-15.823-2.0454-36.029-9.7258-36.371-28.589-3.6907-24.206 22.464-38.605 43.648-35.393 9.9341 0.44049 19.742 2.5373 29.159 5.6772zm30.734-3.7184c4.9057 1.6503 17.143-4.0316 15.329 4.3388v108.96c-4.9057-1.6503-17.143 4.0316-15.329-4.3388v-108.96zm45.835 0c4.9057 1.6503 17.143-4.0316 15.329 4.3388v96.059h55.169c-0.0873 6.7439 2.3594 16.022-7.5929 12.901h-62.906v-113.3z"/>
+      <g id="g21236" filter="url(#filter3926)" transform="translate(-2.2385 188.57)">
+        <rect id="rect21230" height="28.571" width="691.43" y="43.791" x="28.571" fill="#008000"/>
+        <rect id="rect21232" height="28.571" width="691.43" y="77.791" x="28.571" fill="#ff0"/>
+        <rect id="rect21234" height="28.571" width="691.43" y="113.79" x="28.571" fill="#000080"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Brasil</dc:title>
+        <dc:date>2011-02-09T12:14:45</dc:date>
+        <dc:description>Brasil</dc:description>
+        <dc:source>http://openclipart.org/detail/117529/brasil-by-leandrosciola-117529</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>leandrosciola</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Brasil</rdf:li>
+            <rdf:li>Brazil</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
